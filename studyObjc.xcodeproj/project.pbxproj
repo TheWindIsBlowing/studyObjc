@@ -13,6 +13,8 @@
 		2C53FEBB2895068F0078C85A /* Integer+Arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEBA2895068F0078C85A /* Integer+Arithmetic.m */; };
 		2C53FEBF289508C10078C85A /* Integer+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEBE289508C10078C85A /* Integer+Display.m */; };
 		2C53FEC328965B610078C85A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEC228965B610078C85A /* Person.m */; };
+		2CC9880E2896C42B000BB188 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9880D2896C42B000BB188 /* Student.m */; };
+		2CC988112896CACE000BB188 /* ClassManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC988102896CACE000BB188 /* ClassManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,11 @@
 		2C53FEBE289508C10078C85A /* Integer+Display.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Integer+Display.m"; sourceTree = "<group>"; };
 		2C53FEC128965B610078C85A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2C53FEC228965B610078C85A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2CC9880C2896C42B000BB188 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2CC9880D2896C42B000BB188 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2CC9880F2896CACE000BB188 /* ClassManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassManager.h; sourceTree = "<group>"; };
+		2CC988102896CACE000BB188 /* ClassManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassManager.m; sourceTree = "<group>"; };
+		2CC988122896D233000BB188 /* stuList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stuList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 		2C53FE912894EF820078C85A = {
 			isa = PBXGroup;
 			children = (
+				2CC9880B2896C3E3000BB188 /* 11_student_manager */,
 				2C53FEC028965B140078C85A /* 2_class */,
 				2C53FEAA289500560078C85A /* 10_category */,
 				2C53FE9C2894EF820078C85A /* 1_hello_world */,
@@ -101,6 +109,18 @@
 				2C53FEC228965B610078C85A /* Person.m */,
 			);
 			path = 2_class;
+			sourceTree = "<group>";
+		};
+		2CC9880B2896C3E3000BB188 /* 11_student_manager */ = {
+			isa = PBXGroup;
+			children = (
+				2CC9880C2896C42B000BB188 /* Student.h */,
+				2CC9880D2896C42B000BB188 /* Student.m */,
+				2CC9880F2896CACE000BB188 /* ClassManager.h */,
+				2CC988102896CACE000BB188 /* ClassManager.m */,
+				2CC988122896D233000BB188 /* stuList.plist */,
+			);
+			path = 11_student_manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +182,10 @@
 			files = (
 				2C53FEC328965B610078C85A /* Person.m in Sources */,
 				2C53FEBF289508C10078C85A /* Integer+Display.m in Sources */,
+				2CC988112896CACE000BB188 /* ClassManager.m in Sources */,
 				2C53FEB22895031F0078C85A /* Integer.m in Sources */,
 				2C53FE9E2894EF820078C85A /* main.m in Sources */,
+				2CC9880E2896C42B000BB188 /* Student.m in Sources */,
 				2C53FEBB2895068F0078C85A /* Integer+Arithmetic.m in Sources */,
 				2C53FEAF289502130078C85A /* SayHelloWorld.m in Sources */,
 			);
