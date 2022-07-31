@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2C53FE9E2894EF820078C85A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FE9D2894EF820078C85A /* main.m */; };
+		2C53FEAF289502130078C85A /* SayHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEAE289502130078C85A /* SayHelloWorld.m */; };
+		2C53FEB22895031F0078C85A /* Integer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEB12895031F0078C85A /* Integer.m */; };
+		2C53FEBB2895068F0078C85A /* Integer+Arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEBA2895068F0078C85A /* Integer+Arithmetic.m */; };
+		2C53FEBF289508C10078C85A /* Integer+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEBE289508C10078C85A /* Integer+Display.m */; };
+		2C53FEC328965B610078C85A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53FEC228965B610078C85A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		2C53FE9A2894EF820078C85A /* studyObjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = studyObjc; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C53FE9D2894EF820078C85A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C53FEAD289502130078C85A /* SayHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHelloWorld.h; sourceTree = "<group>"; };
+		2C53FEAE289502130078C85A /* SayHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHelloWorld.m; sourceTree = "<group>"; };
+		2C53FEB02895031F0078C85A /* Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Integer.h; sourceTree = "<group>"; };
+		2C53FEB12895031F0078C85A /* Integer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integer.m; sourceTree = "<group>"; };
+		2C53FEB92895068F0078C85A /* Integer+Arithmetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Integer+Arithmetic.h"; sourceTree = "<group>"; };
+		2C53FEBA2895068F0078C85A /* Integer+Arithmetic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Integer+Arithmetic.m"; sourceTree = "<group>"; };
+		2C53FEBD289508C10078C85A /* Integer+Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Integer+Display.h"; sourceTree = "<group>"; };
+		2C53FEBE289508C10078C85A /* Integer+Display.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Integer+Display.m"; sourceTree = "<group>"; };
+		2C53FEC128965B610078C85A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C53FEC228965B610078C85A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +56,10 @@
 		2C53FE912894EF820078C85A = {
 			isa = PBXGroup;
 			children = (
-				2C53FE9C2894EF820078C85A /* studyObjc */,
+				2C53FEC028965B140078C85A /* 2_class */,
+				2C53FEAA289500560078C85A /* 10_category */,
+				2C53FE9C2894EF820078C85A /* 1_hello_world */,
+				2C53FE9D2894EF820078C85A /* main.m */,
 				2C53FE9B2894EF820078C85A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +72,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C53FE9C2894EF820078C85A /* studyObjc */ = {
+		2C53FE9C2894EF820078C85A /* 1_hello_world */ = {
 			isa = PBXGroup;
 			children = (
-				2C53FE9D2894EF820078C85A /* main.m */,
+				2C53FEAD289502130078C85A /* SayHelloWorld.h */,
+				2C53FEAE289502130078C85A /* SayHelloWorld.m */,
 			);
-			path = studyObjc;
+			path = 1_hello_world;
+			sourceTree = "<group>";
+		};
+		2C53FEAA289500560078C85A /* 10_category */ = {
+			isa = PBXGroup;
+			children = (
+				2C53FEB02895031F0078C85A /* Integer.h */,
+				2C53FEB12895031F0078C85A /* Integer.m */,
+				2C53FEB92895068F0078C85A /* Integer+Arithmetic.h */,
+				2C53FEBA2895068F0078C85A /* Integer+Arithmetic.m */,
+				2C53FEBD289508C10078C85A /* Integer+Display.h */,
+				2C53FEBE289508C10078C85A /* Integer+Display.m */,
+			);
+			path = 10_category;
+			sourceTree = "<group>";
+		};
+		2C53FEC028965B140078C85A /* 2_class */ = {
+			isa = PBXGroup;
+			children = (
+				2C53FEC128965B610078C85A /* Person.h */,
+				2C53FEC228965B610078C85A /* Person.m */,
+			);
+			path = 2_class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C53FEC328965B610078C85A /* Person.m in Sources */,
+				2C53FEBF289508C10078C85A /* Integer+Display.m in Sources */,
+				2C53FEB22895031F0078C85A /* Integer.m in Sources */,
 				2C53FE9E2894EF820078C85A /* main.m in Sources */,
+				2C53FEBB2895068F0078C85A /* Integer+Arithmetic.m in Sources */,
+				2C53FEAF289502130078C85A /* SayHelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
